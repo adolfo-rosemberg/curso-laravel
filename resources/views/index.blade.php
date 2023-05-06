@@ -11,7 +11,7 @@
     @forelse ($games as $game)
         <li>{{$game}}</li>
     @empty
-        <p>No hay juegos :/</p>
+        <p>No hay juegos.</p>
     @endforelse
 </body>
 </html>
